@@ -1,0 +1,756 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+     border: border-box; 
+}
+
+
+.navbar{
+   height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+.nav-logo{
+   height: 50px;
+    width: 100px;
+    padding-top: 6px;
+}
+
+
+
+
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/** box2 **/
+
+.add-1{
+ color: #cccccc;
+ font-size: .9rem;
+ margin-left: 15px;
+ cursor: pointer;
+}
+
+.add-2{
+font-size: 1rem;
+margin-left: 3px;
+cursor: pointer;
+}
+
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/**box3**/
+
+.nav-search{
+    display: flex;
+   justify-content: space-evenly;
+    background: red;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+
+.search-select{
+   background-color: #f3f3f3;
+   width: 50px;
+   text-align: center;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+
+}
+
+.search-input{
+    width: 100%;
+    height: 38px;
+    font-size: 1rem;
+    border:none;
+}
+
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+
+/**box4**/
+span{
+    font-size: 0.7rem;
+}
+
+.nav-2{
+
+font-size: 0.85rem;
+ font-weight: 700;
+
+}
+
+
+.nav-search:hover{
+    border: 2px solid orange;
+
+}
+
+/**box5**/
+.nav-cart i{
+   font-size: 35px;
+   height: 40px;
+}
+
+.nav-cart{
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/**panel1**/
+.panel{
+    height: 40px;
+    background-color: rgb(75, 74, 165);
+    display: flex;
+    color: white;
+justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-ops p{
+display: inline-block;
+color: white;
+padding-left: 20px;
+cursor: pointer;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+
+  
+}
+
+.panel-deals{
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.panel-all{
+    cursor: pointer;
+}
+
+
+/**hero**/
+.hero-section{
+    background-image: url(./image/heroimage.png);
+    height: 450px;
+    background-size: cover;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.hero-msg{
+    background-color: white;
+    color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+    height: 40px;
+    font-size: 0.85rem;
+    width: 80%;
+
+    margin-bottom: 25px;
+}
+.hero-msg p{
+    text-transform: capitalize;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/**shop-section**/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+
+.z3{
+    height: 30px;
+     background-color: #e2e7e6;
+}
+
+
+.box{
+
+height: 300px;
+width: 23%;
+background: white;
+
+}
+
+
+.box1-text{
+    height: 40px;
+    text-align: center;
+
+}
+
+.box1-img{
+    height: 230px;
+    background-image: url(./image/box1.jpg);
+    background-size: cover;
+    background-position: center;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+
+}
+
+.box1-f{
+    height: 30px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+.box1-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.box2-text{
+    height: 40px;
+    text-align: center;
+
+}
+
+
+.box2-img{
+    height: 230px;
+    background-image: url(./image/box2.avif);
+  background-size: cover;
+  background-position: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.box2-f{
+   height: 30px;
+    color: black;
+   font-weight: 400;
+    text-align: center;
+}
+
+.box2-f:hover{
+    color: #007185;
+ font-weight: 600;
+    cursor: pointer;
+    
+}
+
+
+.box3-text{
+    height: 40px;
+    text-align: center;
+}
+
+.box3-img{
+    height: 230px;
+    background-image: url(./image/box3.jpeg);
+    background-size: cover;
+    margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+.box3-f{
+    height: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+
+}
+
+.box3-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+.box4-text{
+    height: 40px;
+    text-align: center;
+}
+
+
+.box4-img{
+   height: 230px;
+
+   background-image: url(./image/box4.jpg);
+   background-size: cover;
+
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+.box4-f{
+height: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.box4-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+
+.box5-text{
+    text-align: center;
+    height: 40px;
+    
+}
+
+.box5-img{
+    height: 230px;
+    background-image: url(./image/box5.webp);
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.box5-f{
+height: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.box5-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.box6-text{
+    text-align: center;
+    height: 40px;
+}
+
+.box6-img{
+    height: 230px;
+ 
+  background-image: url(./image/box6.webp);
+  background-size: cover;
+  margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+.box6-f{
+ height: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.box6-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.box7-text{
+    text-align: center;
+    height: 40px;
+
+}
+
+.box7-img{
+    height: 230px;
+
+    background-image: url(./image/box7.webp);
+    background-size: cover;
+    margin: 0px 10px 10px 10px;
+
+}
+
+.box7-f{
+  height: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.box7-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.box8-text{
+    height: 40px;
+    text-align: center;
+}
+
+.box8-img{
+    height: 230px;
+
+    background-image: url(./image/box8.jpg);
+    background-size: cover;
+    margin: 0px 10px 10px 10px;
+
+}
+
+
+.box8-f{
+    height: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+
+.box8-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+}
+.z1{
+    width: 100%;
+    height: 20px;
+    background-color: #e2e7e6;
+}
+
+
+.shop-section-3{
+    display: flex;
+      justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+
+.box9-text{
+    text-align: center;
+    height: 40px;
+}
+
+.box9-img{
+    height: 230px;
+
+    background-image: url(./image/box9.webp);
+    background-size: cover;
+    margin: 0px 10px 10px 10px ;
+
+}
+
+.box9-f{
+   height: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.box9-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.box10-text{
+height: 40px;
+text-align: center;
+}
+
+.box10-img{
+    height: 230px;
+    background-image: url(./image/box10.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.box10-f{
+    height: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.box10-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.box11-text{
+    height: 40px;
+text-align: center;
+
+}
+
+.box11-img{
+    height: 230px;
+
+    background-image: url(./image/box11.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.box11-f{
+  height: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.box11-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+.box12-text{
+    height: 40px ;
+    text-align: center;
+}
+.box12-img{
+    height: 230px;
+
+    background-image: url(./image/box12.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 10px 10px  10px;
+}
+
+.box12-f{
+  height: 30px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.box12-f:hover{
+    color: #007185;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.z2{
+    width: 100%;
+    height: 20px;
+    background-color: #e2e7e6 ;
+}
+/**footer**/
+.z4{
+    height: 30px;
+     background-color: #e2e7e6 ;
+}
+
+.foot-panel{
+    background-color: #37475a;
+height: 50px;
+    color: white;
+  display: flex;
+justify-content: center;
+align-items: center;
+font-size: .85rem;
+}
+
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
+ul a{
+    display: block;
+    color: #dddddd;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    text-decoration: transparent;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+
+.foot-panel3{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo{
+    margin-top: 23px;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+
+.ul-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.foot-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot-p p{
+font-size: .85rem;
+margin-top: 10px;
+
+}
+
+
+
+.ul-1 a{
+    
+   display: inline;
+   margin-left: 15px;
+   font-size: .85rem;
+
+}
+
+.login-section{
+    width: 100%;
+    height: 190px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section2{
+    width: 100%;
+    height: 150px;
+    border: 0.5px solid #cccccc;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-button-section{
+    width: 960px;
+    height: 110px;
+   
+}
+
+.login-button-tittle{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button a{
+    width:146px ;
+   text-decoration: none;
+    margin-top: 12px;
+    text-align: center;
+    padding: 8px 40px;
+    background-color:rgb(228, 175, 78);
+    color: black;
+    border-radius: 25px;
+}
+
+.login-button a:hover{
+    background-color: orange;
+}
+
+.login-new-customer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.login-new-customer p{
+    font-size: 11px;
+}
+.login-new-customer a{
+    font-size: 11px;
+    color: #007185;
+}
+
